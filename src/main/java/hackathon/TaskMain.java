@@ -67,16 +67,15 @@ public class TaskMain {
                                 int choose = input.nextInt();
                                 if (choose == 1) {
                                     System.out.println("Выбран высокий приоритет!\n");
-//                                    priority = Priority.valueOf(Priority.High.priority);
                                     priority = Priority.High;
                                     break;
                                 } else if (choose == 2) {
                                     System.out.println("Выбран средний приоритет!\n");
-                                    priority = Priority.valueOf(Priority.Medium.priority);
+                                    priority = Priority.Medium;
                                     break;
                                 } else if (choose == 3) {
                                     System.out.println("Выбран низкий приоритет!\n");
-                                    priority = Priority.valueOf(Priority.Low.priority);
+                                    priority = Priority.Low;
                                     break;
                                 }
                             } catch (IllegalArgumentException e) {
@@ -100,11 +99,11 @@ public class TaskMain {
                                     break;
                                 } else if (choose == 2) {
                                     System.out.println("Выбран статус в процессе!\n");
-                                    status = Status.Status.inProcess;
+                                    status = Status.inProcess;
                                     break;
                                 } else if (choose == 3) {
                                     System.out.println("Выбран статус отложено!\n");
-                                    status = Status.valueOf(Status.Deferred.status);
+                                    status = Status.Deferred;
                                     break;
                                 }
                             } catch (Exception e) {
@@ -169,15 +168,15 @@ public class TaskMain {
                                 int choose = input.nextInt();
                                 if (choose == 1) {
                                     System.out.println("Выбран высокий приоритет!\n");
-                                    priority = Priority.valueOf(Priority.High.priority);
+                                    priority = Priority.High;
                                     break;
                                 } else if (choose == 2) {
                                     System.out.println("Выбран средний приоритет!\n");
-                                    priority = Priority.valueOf(Priority.Medium.priority);
+                                    priority = Priority.Medium;
                                     break;
                                 } else if (choose == 3) {
                                     System.out.println("Выбран низкий приоритет!\n");
-                                    priority = Priority.valueOf(Priority.Low.priority);
+                                    priority = Priority.Low;
                                     break;
                                 }
                             } catch (Exception e) {
@@ -197,15 +196,15 @@ public class TaskMain {
                                 int choose = input.nextInt();
                                 if (choose == 1) {
                                     System.out.println("Выбран статус выполнено!\n");
-                                    status = Status.valueOf(Status.Complete.status);
+                                    status = Status.Complete;
                                     break;
                                 } else if (choose == 2) {
                                     System.out.println("Выбран статус в процессе!\n");
-                                    status = Status.valueOf(Status.inProcess.status);
+                                    status = Status.inProcess;
                                     break;
                                 } else if (choose == 3) {
                                     System.out.println("Выбран статус отложено!\n");
-                                    status = Status.valueOf(Status.Deferred.status);
+                                    status = Status.Deferred;
                                     break;
                                 }
                             } catch (Exception e) {
@@ -251,15 +250,15 @@ public class TaskMain {
                                 int choose = input.nextInt();
                                 if (choose == 1) {
                                     System.out.println("Выбран статус выполнено!\n");
-                                    status = Status.valueOf(Status.Complete.status);
+                                    status = Status.Complete;
                                     break;
                                 } else if (choose == 2) {
                                     System.out.println("Выбран статус в процессе!\n");
-                                    status = Status.valueOf(Status.inProcess.status);
+                                    status = Status.inProcess;
                                     break;
                                 } else if (choose == 3) {
                                     System.out.println("Выбран статус отложено!\n");
-                                    status = Status.valueOf(Status.Deferred.status);
+                                    status = Status.Deferred;
                                     break;
                                 }
                             } catch (Exception e) {
